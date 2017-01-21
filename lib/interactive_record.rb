@@ -14,15 +14,12 @@ class InteractiveRecord
 
     table_info = DB[:conn].execute(sql)
     column_names = []
-    table_info.each do |row|
-      column_names << row["name"]
-    end
-    column_names.compact
+    table_info.each{|row| column_names << row["name"]}
+    column_names.compact #compact removes nils
   end
 
   def initialize(options={})
-    options.each do |property, value|
-      self.send("#{property}=", value)
+    options.each {|property, value| self.send("#{property}=", value)}
     end
   end
 
