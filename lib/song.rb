@@ -1,5 +1,6 @@
 require_relative "./interactive_record.rb"
 
+# inherit dynamic ORM:
 class Song < InteractiveRecord
 
   self.column_names.each do |col_name|
