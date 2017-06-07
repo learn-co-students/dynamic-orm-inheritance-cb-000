@@ -1,6 +1,7 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
+#Active record is another example of a dynamic ORM which handles the interactions between RUBY and the DB. Class can then inherit from the Active Record class and assess methods such as save, create, or find_by_name. 
 class InteractiveRecord
 
   def self.table_name
