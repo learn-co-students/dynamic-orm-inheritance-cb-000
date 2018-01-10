@@ -1,4 +1,6 @@
-require 'sqlite3'
+
+# Run program as 'ruby <file name'
+ require 'sqlite3'
 
 require_relative "../lib/interactive_record.rb"
 require_relative "../lib/song.rb"
