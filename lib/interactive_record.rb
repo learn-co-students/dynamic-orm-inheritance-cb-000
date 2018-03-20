@@ -1,5 +1,7 @@
 require_relative "../config/environment.rb"
+  # dynamic
 require 'active_support/inflector'
+
 
 class InteractiveRecord
 
