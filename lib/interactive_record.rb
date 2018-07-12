@@ -53,4 +53,8 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
 
+  def test2
+    'test'
+  end
+
 end
