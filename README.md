@@ -2,6 +2,7 @@
 
 ## Objectives
 
+- PARTS UNKNOWN, BABY!
 - Explain why it is useful to have an ORM class from which other classes in your
   program can inherit
 - Describe the code that is used to construct such a class
